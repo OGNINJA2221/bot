@@ -3,7 +3,7 @@ const moment = require('moment');
 const { fetch } = require('undici'); // Use undici instead of node-fetch
 
 // Directly input your tokens here (not recommended for production)
-const TOKEN = 'YOUR_DISCORD_BOT_TOKEN'; // Replace with your Discord bot token
+const TOKEN = 'MTI5NTAxMzQ5NDgzMTQ0ODE0Ng.G3o_RV.0aDBln1WD2HFi8CVBhY-dAtPBVpgLUBYV2GuI8'; // Replace with your Discord bot token
 const CLIENT_ID = 'YOUR_DISCORD_CLIENT_ID'; // Replace with your Discord client ID
 const OPENWEATHER_API_KEY = 'YOUR_OPENWEATHER_API_KEY'; // Replace with your OpenWeather API key
 
