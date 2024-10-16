@@ -1,14 +1,11 @@
 const { Client, GatewayIntentBits, REST, Routes } = require('discord.js');
-const dotenv = require('dotenv');
 const moment = require('moment');
 const { fetch } = require('undici'); // Use undici instead of node-fetch
 
-// Load environment variables from a .env file
-dotenv.config();
-
-const TOKEN = process.env.TOKEN;
-const CLIENT_ID = process.env.CLIENT_ID;
-const OPENWEATHER_API_KEY = process.env.OPENWEATHER_API_KEY;
+// Directly input your tokens here (not recommended for production)
+const TOKEN = 'YOUR_DISCORD_BOT_TOKEN'; // Replace with your Discord bot token
+const CLIENT_ID = 'YOUR_DISCORD_CLIENT_ID'; // Replace with your Discord client ID
+const OPENWEATHER_API_KEY = 'YOUR_OPENWEATHER_API_KEY'; // Replace with your OpenWeather API key
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent] });
 
@@ -198,3 +195,4 @@ client.login(TOKEN);
 
 // Call the function to register the commands
 registerCommands();
+
