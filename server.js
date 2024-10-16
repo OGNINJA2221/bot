@@ -4,8 +4,8 @@ const { fetch } = require('undici'); // Use undici instead of node-fetch
 
 // Directly input your tokens here (not recommended for production)
 const TOKEN = 'MTI5NTAxMzQ5NDgzMTQ0ODE0Ng.G3o_RV.0aDBln1WD2HFi8CVBhY-dAtPBVpgLUBYV2GuI8'; // Replace with your Discord bot token
-const CLIENT_ID = 'YOUR_DISCORD_CLIENT_ID'; // Replace with your Discord client ID
-const OPENWEATHER_API_KEY = 'YOUR_OPENWEATHER_API_KEY'; // Replace with your OpenWeather API key
+const CLIENT_ID = 1295013494831448146'; // Replace with your Discord client ID
+const OPENWEATHER_API_KEY = '462e0e52b296b52c05301a47d4e1e85e'; // Replace with your OpenWeather API key
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent] });
 
